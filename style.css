@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 10px;
+}
+input:focus {
+    background-color: rgba(177, 238, 238, 0.263);
+}
+input {
+    width: 96vw;
+    height: 42px;
+    padding: 10px;
+}
+button {
+    margin-top: 3px;
+    background-color:#5f9341;
+    border: none;
+    height: 32px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+}
