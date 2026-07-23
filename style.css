@@ -6,6 +6,7 @@
 }
 body {
     padding: 10px;
+    min-width: 400px;
 }
 input:focus {
     background-color: rgba(177, 238, 238, 0.263);
@@ -14,10 +15,15 @@ input {
     width: 96vw;
     height: 42px;
     padding: 10px;
+    border: 1px solid #5f9341;
 }
 ul li {
-    /* list-style: none; */
-    margin: 10px;
+    list-style: none;
+    margin: 10px 10px;
+    
+}
+ul li a {
+    color: #5f9341;
 }
 button {
     margin-top: 3px;
